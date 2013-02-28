@@ -226,6 +226,62 @@
   color: black;
 }
 
+.star{
+  width: 30px;
+  padding-right: 5px;
+}
+
+.ratings{
+  position: relative;
+  top: -100px;
+}
+
+.criteria{
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.orange{
+  color: orange;
+}
+
+.sliders{
+  padding: 20px;
+}
+
+.slider{
+  width: 150px;
+  left: 4%;
+}
+
+.slider1{
+  width: 150px;
+  top: -20px;
+  left: 35%;
+}
+
+.next{
+  background-color: #00BF32;
+  color: black;
+  font-family: "Oswald",sans-serif;
+  padding: 10px 5% 10px 5%;
+  font-size: 16px;
+  border: none;
+  margin-top: 15px;
+  min-width: 120px;
+  width: 120px;
+  margin-top: -80px;
+  margin-left: 35%;
+  cursor: pointer;
+}
+.next:hover{
+  color: white;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  border-radius: 0px;
+}
+
 
 body {
   color: #333;

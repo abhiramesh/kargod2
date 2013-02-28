@@ -1,0 +1,55 @@
+<head>
+	<%= stylesheet_link_tag    "jquery-ui-1.10.1.custom.min.css" %>
+  	<%= javascript_include_tag "jquery-ui-1.10.1.custom.min.js" %>
+</head>
+<body>
+	<div class="home-banner-nonhome">
+		<a href='/'><img src="/assets/kargod_logo.png" class="logo-nonhome"></a>
+	</div>
+	<div class="main-car-pic">
+		<img src='/assets/big_bmw.png'>
+	</div>
+	<div class="container-fluid" align="left">
+		<div class="sliders">
+			<span class="criteria">
+				within <span class="orange" id="miles">50</span> miles
+			</span>
+			<span class="criteria">
+				<img src='/assets/colortrans.png' width="150px;">
+			</span>
+			<span class="criteria">
+				i'll pay <span class="orange" id="price">$36000<span>
+			</span>
+			<span class="criteria">
+				<div class="slider"></div>
+			</span>
+			<div class="slider1"></div>
+		</div>
+	</div>
+	<div class="container-fluid" align="center">
+		<div class="next">
+			Submit
+		</div>
+	</div>
+	<div class="gallery-cars">
+		<img src='/assets/car-gallery.png'>
+	</div>
+<script>
+$(document).ready(function(){
+	$( ".slider" ).slider({
+		value: 50,
+		min: 0,
+		max: 100,
+		slide: function( event, ui ) {
+                $( "#miles" ).html( ui.value );
+          }
+	});
+	$( ".slider1" ).slider({
+		value: 28250,
+		min: 0,	
+	});
+	$('.next').click(function(){
+		window.location = '/user_dash';
+	});
+});
+</script>

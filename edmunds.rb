@@ -25,7 +25,8 @@ end
 
 # Do 555 565 597!!!!
 
-Model.all.slice(1843..3000).each do |d|
+Model.all.slice(2129..3000).each do |d|
+	sleep(3)
 	trims_json = open('http://api.edmunds.com/v1/api/vehicle/stylerepository/findstylesbymakemodelyear?make=' + URI::encode(d.make.name) + '&model=' + URI::encode(d.name) + '&year=' + URI::encode(d.year.to_s) + '&api_key=gna5m54ezjshanbuy4gepzsw&fmt=json').read
 	unless JSON.parse(trims_json, :max_nesting => 150)["styleHolder"] == nil
 		trims_parsed = JSON.parse(trims_json)["styleHolder"]

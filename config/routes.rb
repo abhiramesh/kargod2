@@ -20,6 +20,8 @@ Kargod2::Application.routes.draw do
 
   get '/user_dash', to: 'static_pages#user_dash'
 
+  get '/user_app', to: 'static_pages#user_app'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

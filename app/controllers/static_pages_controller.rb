@@ -9,4 +9,7 @@ end
 def user_dash
 end
 
+def user_app
+end
+
 end
