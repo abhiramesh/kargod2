@@ -1,6 +1,14 @@
 ---
+big_bmw.png: big_bmw-cb3c7d1f8034f4882308529f89ade2b2.png
+big_bmw/index.png: big_bmw-cb3c7d1f8034f4882308529f89ade2b2.png
+car-gallery.png: car-gallery-e9e5c549539385c5f27d1655bcf10fa0.png
+car-gallery/index.png: car-gallery-e9e5c549539385c5f27d1655bcf10fa0.png
+colortrans.png: colortrans-2adddf4245e5b842638dfcd448e9e10a.png
+colortrans/index.png: colortrans-2adddf4245e5b842638dfcd448e9e10a.png
 dash.png: dash-528254edd71e9ffb371db1a419196436.png
 dash/index.png: dash-528254edd71e9ffb371db1a419196436.png
+icon_star.png: icon_star-9973af25a03d56b4dff36debbc75f146.png
+icon_star/index.png: icon_star-9973af25a03d56b4dff36debbc75f146.png
 kargod_logo.png: kargod_logo-94ec7b62a8d161fda04dd51fd0f22b67.png
 kargod_logo/index.png: kargod_logo-94ec7b62a8d161fda04dd51fd0f22b67.png
 map.png: map-609b94d990d4b908f2478ad667dd5ae2.png
@@ -11,10 +19,10 @@ road.jpg: road-705795b06d014aab45b93adf494f97cd.jpg
 road/index.jpg: road-705795b06d014aab45b93adf494f97cd.jpg
 user_dash.png: user_dash-79e070c1a3505cd118b5f55a84e9a9ad.png
 user_dash/index.png: user_dash-79e070c1a3505cd118b5f55a84e9a9ad.png
-application.js: application-0187829ff7e07663acf1975ac1306398.js
-application/index.js: application-0187829ff7e07663acf1975ac1306398.js
-application.css: application-e68345b50842c68bdd2b40a2d99b35b1.css
-application/index.css: application-e68345b50842c68bdd2b40a2d99b35b1.css
+application.js: application-b9f23d646bd45f5ed9daabc2b5e85892.js
+application/index.js: application-b9f23d646bd45f5ed9daabc2b5e85892.js
+application.css: application-1cde3f459ae25505e20e2880bba40f78.css
+application/index.css: application-1cde3f459ae25505e20e2880bba40f78.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
