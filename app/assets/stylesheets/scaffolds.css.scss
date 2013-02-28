@@ -83,7 +83,6 @@
   text-align: center;
   font-size: 24px;
   line-height: 45px;
-  min-width: 445px;
 }
 
 .dealer-bid{
@@ -178,6 +177,54 @@
   padding-left: 6%;
 }
 
+.your-bids{
+  font-size: 15px;
+  position: relative;
+  left: 60%;
+  cursor: pointer;
+  color: white;
+  top: 10%;
+}
+
+.performance{
+  font-size: 15px;
+  position: relative;
+  left: 55%;
+  cursor: pointer;
+  color: white;
+  top: 10%;
+}
+
+.your-bids:hover{
+  color: #00BF32;
+}
+
+.performance:hover{
+  color: #00BF32;
+}
+
+.your-bids-div{
+  width: 114px;
+  padding: 10px;
+  position: absolute;
+  left: 74.5%;
+  background: black;
+  opacity: 0.8;
+  color: white;
+  display: none;
+}
+
+.bid-entry{
+  width: 114px;
+  padding: 10px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+
+.bid-entry:hover{
+  background-color: #eeeeee;
+  color: black;
+}
 
 
 body {

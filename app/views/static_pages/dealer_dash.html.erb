@@ -1,9 +1,14 @@
 <body class='home-background'>
 	<div class="home-banner-nonhome">
 		<img src="/assets/kargod_logo.png" class="logo-nonhome">
-	</div>
-	<div class="dealer-sub-head">
-		Your Bidding Dashbard - Welcome Back!
+		<span class="performance"> Performance </span>
+		<span class="your-bids"> 
+			Your Bids
+		</span>	
+		<div class='your-bids-div'>
+			<div class="bid-entry">
+			</div>
+		</div>
 	</div>
 
 	<% 10.times do %>
@@ -40,8 +45,14 @@
 		$(this).parents('.bid1').children('.dealer-bid').css('opacity','0.3');
 		$(this).parents('.bid1').children('.dealer-bid-hidden').css('opacity','0.3');
 		$(this).parents('.bid1').children('.dealer-accept-box').css('opacity','0.3');
+		$('.bid-entry:last-child').remove();
 	});
 	$('.accept').click(function(){
 		$(this).parents('.bid1').children('.dealer-bid').css('background','#b1f1c2').css('opacity','0.4;');
+		$('<div class="bid-entry">BMW 328i - 28250</div>').appendTo('.your-bids-div');
+		$('.your-bids-div').slideDown();
+	});
+	$('.your-bids').click(function(){
+		$('.your-bids-div').slideToggle();
 	});
 	</script>
