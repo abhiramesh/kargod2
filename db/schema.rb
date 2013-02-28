@@ -11,7 +11,35 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130227085017) do
+ActiveRecord::Schema.define(:version => 20130228012421) do
+
+  create_table "makes", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "models", :force => true do |t|
+    t.string   "name"
+    t.string   "image"
+    t.integer  "make_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "year"
+  end
+
+  create_table "trims", :force => true do |t|
+    t.integer  "model_id"
+    t.string   "name"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.string   "base_msrp"
+    t.string   "base_invoice"
+    t.string   "tmv"
+    t.string   "used_tmv_retail"
+    t.string   "used_tmv_pp"
+    t.string   "used_tmv_tradein"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "email"

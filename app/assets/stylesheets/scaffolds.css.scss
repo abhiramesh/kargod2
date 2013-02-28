@@ -1,13 +1,77 @@
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Varela);
+
+.home-banner{
+  background: #000000;
+  height: 100px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.logo{
+  width: 230px;
+  position: relative;
+  left: 5%;
+  top: 5%;
+}
+
+.home-background{
+  background: url('road.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.home-catch{
+  width: 50%;
+  filter: alpha(opacity=80);
+  font-family: "Oswald", sans-serif;
+  font-size: 72px;
+  line-height: 78px;
+  text-align: center;
+  color: black;
+  padding: 0px 10px 0px 10px;
+  margin-top: 40px;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+.search-forms{
+  margin-top: 70px;
+}
+
+.submit-search{
+  background-color: #00BF32;
+  color: black;
+  font-family: "Oswald",sans-serif;
+  padding: 15px 10px 15px 10px;
+  font-size: 25px;
+  border: none;
+  margin-top: 15px;
+  min-width: 120px;
+  cursor: pointer;
+  width: 23%;
+  border-radius: 10px;
+}
+
+.submit-search:hover{
+  background-color: #005416;
+  cursor: pointer;
+  color: white;
+}
+
+
 body {
-  background-color: #fff;
   color: #333;
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 13px;
   line-height: 18px;
+  width: 100%;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
@@ -66,4 +130,14 @@ div {
     font-size: 12px;
     list-style: square;
   }
+}
+
+select{
+  border-radius: 0px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Oswald';
+  color: #373737;
+  margin-left: 20px;
+  border-color: black;
 }

@@ -1,9 +1,20 @@
 Kargod2::Application.routes.draw do
+  resources :trims
+
+
+  resources :models
+
+
+  resources :makes
+
+
   devise_for :users
 
   resources :users
 
   root :to => 'static_pages#home'
+
+  post '/get_model_data/:id', to: 'models#get_model_data'
 
 
   # The priority is based upon order of creation:

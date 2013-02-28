@@ -85,6 +85,7 @@ GEM
       jwt (~> 0.1.4)
       multi_json (~> 1.0)
       rack (~> 1.2)
+    oj (2.0.7)
     omniauth (1.1.1)
       hashie (~> 1.2)
       rack
@@ -158,8 +159,8 @@ DEPENDENCIES
   delayed_job_active_record
   devise
   jquery-rails
-  json
   koala
+  oj
   omniauth
   omniauth-facebook
   omniauth-twitter

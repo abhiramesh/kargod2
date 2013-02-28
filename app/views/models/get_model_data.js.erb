@@ -1,0 +1,4 @@
+$('#model_id').empty();
+<% for model in @models %>
+	$('#model_id').append($("<option></option>").attr("value",<%= model.id %>).text('<%= model.name %>'));
+<% end %>

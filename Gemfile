@@ -8,7 +8,8 @@ gem 'omniauth-twitter'
 gem 'omniauth'
 gem 'koala'
 
-gem 'json'
+#gem 'json'
+gem "oj"
 
 gem 'delayed_job_active_record'
 
