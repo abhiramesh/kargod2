@@ -16,6 +16,10 @@ Kargod2::Application.routes.draw do
 
   post '/get_model_data/:id', to: 'models#get_model_data'
 
+  get '/dealer_dash', to: 'static_pages#dealer_dash'
+
+  get '/user_dash', to: 'static_pages#user_dash'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

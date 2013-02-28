@@ -61,6 +61,124 @@
   color: white;
 }
 
+.logo-nonhome{
+  width: 140px;
+  position: relative;
+  left: 5%;
+  top: 5%;
+}
+
+.home-banner-nonhome{
+  background: #000000;
+  height: 60px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.dealer-sub-head{
+  background: #FFFFFF;
+  height: 50px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  text-align: center;
+  font-size: 24px;
+  line-height: 45px;
+  min-width: 445px;
+}
+
+.dealer-bid{
+  margin-top: -190px;
+  width: 40%;
+  min-width: 350px;
+  background: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  opacity: 0.90;
+  filter: alpha(opacity=90);
+}
+
+.dealer-bid-header{
+  color: #373737;
+  font-family: "Oswald",sans-serif;
+  font-size: 65px;
+  text-align: left;
+  line-height: 70px;
+  padding: 20px;
+}
+
+.dealer-bid-details{
+  color: #373737;
+  font-family: "Oswald",sans-serif;
+  font-size: 45px;
+  text-align: left;
+  line-height: 58px;
+  padding: 20px;
+  margin-top: -45px;
+}
+
+.dealer-accept-box{
+  position: relative;
+  left: 20%;
+  top: -310px;
+  width: 100px;
+}
+
+.accept{
+  width: 50px;
+  padding: 15px;
+  background-color: #00BF32;
+  font-size: 16px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.reject{
+  width: 50px;
+  padding: 15px;
+  background-color: #ccc;
+  font-size: 25px;
+  margin-bottom: 50px;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.dealer-bid-hidden{
+  text-align: center;
+  width: 40%;
+  min-width: 350px;
+  background: #CCCCCC;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  opacity: 0.90;
+  filter: alpha(opacity=90);
+  padding: 20px 0px 20px 0px;
+  margin-top: -25px;
+}
+
+.hidden_details{
+  font-size: 21px;
+  padding: 40px;
+}
+
+.click-more{
+  width: 100px;
+  padding: 10px;
+  background: #438ac0;
+  color: white;
+  cursor: pointer;
+}
+
+.user-dash{
+  width: 50%;
+  min-width: 469px;
+}
+
+.map{
+  padding-left: 6%;
+}
+
+
 
 body {
   color: #333;
@@ -140,4 +258,8 @@ select{
   color: #373737;
   margin-left: 20px;
   border-color: black;
+}
+
+.select-date{
+  width:110px;
 }

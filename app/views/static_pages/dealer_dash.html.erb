@@ -1,0 +1,47 @@
+<body class='home-background'>
+	<div class="home-banner-nonhome">
+		<img src="/assets/kargod_logo.png" class="logo-nonhome">
+	</div>
+	<div class="dealer-sub-head">
+		Your Bidding Dashbard - Welcome Back!
+	</div>
+
+	<% 10.times do %>
+	<div class="container-fluid bid1" align="center" style="margin-bottom: -210px;">
+		<div class="dealer-bid">
+			<div class="dealer-bid-header">
+				2012 BMW 328i
+				<hr width="80%">
+			</div>
+			<div class="dealer-bid-details">
+				Request: $28,250
+				<br>
+				KG Score: 84%
+				<br>
+			</div>
+		</div>
+		<div class="dealer-bid-hidden">
+			<span class="hidden_details"> Blue </span>
+			<span class="hidden_details"> 45,000 mi.</span>
+			<span class="hidden_details"> Manual</span>
+		</div>
+		<div class="dealer-accept-box">
+			<div class="accept">
+				Accept
+			</div>
+			<div class="reject">
+				X
+			</div>
+		</div>
+	</div>
+	<% end %>
+	<script type="text/javascript">
+	$('.reject').click(function(){
+		$(this).parents('.bid1').children('.dealer-bid').css('opacity','0.3');
+		$(this).parents('.bid1').children('.dealer-bid-hidden').css('opacity','0.3');
+		$(this).parents('.bid1').children('.dealer-accept-box').css('opacity','0.3');
+	});
+	$('.accept').click(function(){
+		$(this).parents('.bid1').children('.dealer-bid').css('background','#b1f1c2').css('opacity','0.4;');
+	});
+	</script>
