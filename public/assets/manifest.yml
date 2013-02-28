@@ -1,10 +1,20 @@
 ---
-rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-9bd69fb0da4e1919c641f3ec2f35d4e2.js
-application/index.js: application-9bd69fb0da4e1919c641f3ec2f35d4e2.js
-application.css: application-9a3c95e896b198362a0438801158beaa.css
-application/index.css: application-9a3c95e896b198362a0438801158beaa.css
+dash.png: dash-528254edd71e9ffb371db1a419196436.png
+dash/index.png: dash-528254edd71e9ffb371db1a419196436.png
+kargod_logo.png: kargod_logo-94ec7b62a8d161fda04dd51fd0f22b67.png
+kargod_logo/index.png: kargod_logo-94ec7b62a8d161fda04dd51fd0f22b67.png
+map.png: map-609b94d990d4b908f2478ad667dd5ae2.png
+map/index.png: map-609b94d990d4b908f2478ad667dd5ae2.png
+road.jpeg: road-b385ac4dc757936770ba7e9a1447a07f.jpeg
+road/index.jpeg: road-b385ac4dc757936770ba7e9a1447a07f.jpeg
+road.jpg: road-705795b06d014aab45b93adf494f97cd.jpg
+road/index.jpg: road-705795b06d014aab45b93adf494f97cd.jpg
+user_dash.png: user_dash-79e070c1a3505cd118b5f55a84e9a9ad.png
+user_dash/index.png: user_dash-79e070c1a3505cd118b5f55a84e9a9ad.png
+application.js: application-0187829ff7e07663acf1975ac1306398.js
+application/index.js: application-0187829ff7e07663acf1975ac1306398.js
+application.css: application-e68345b50842c68bdd2b40a2d99b35b1.css
+application/index.css: application-e68345b50842c68bdd2b40a2d99b35b1.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
